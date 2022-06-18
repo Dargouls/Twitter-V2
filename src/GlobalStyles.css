@@ -1,0 +1,45 @@
+:root {
+	--links-color: #5789f3;
+	--dark-primary: #1c1b24;
+	--dark-secondary: #2c2a38;
+	--button-affirmative: #7447ee;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: var(--dark-primary);
+}
+button {
+	color: aliceblue;
+	background-color: var(--button-affirmative);
+
+	padding: 6px 12px;
+
+	outline: none;
+	border: none;
+	border-radius: 4px;
+
+	font-weight: bold;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+span,
+.link {
+	color: aliceblue;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.link {
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
